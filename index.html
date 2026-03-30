@@ -3,44 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mariya L. Ivanova | Publications</title>
+    <title>Mariya L. Ivanova | Research Publications</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
-        body { background-color: #f8f9fa; color: #212529; font-family: 'Inter', -apple-system, sans-serif; }
-        .container { max-width: 900px; padding: 60px 20px; }
-        .pub-item { background: white; border-left: 4px solid #0d6efd; padding: 25px; margin-bottom: 15px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-        .pub-number { font-weight: bold; color: #0d6efd; margin-right: 10px; }
-        .journal-tag { font-size: 0.85rem; color: #198754; font-weight: 600; background: #e9f7ef; padding: 2px 8px; border-radius: 12px; }
-        .doi-link { font-family: monospace; font-size: 0.9rem; word-break: break-all; }
-        h1 { font-weight: 800; letter-spacing: -1px; }
+        body { background-color: #f4f7f9; color: #2d3436; font-family: 'Helvetica Neue', Arial, sans-serif; }
+        .container { max-width: 900px; padding: 80px 20px; }
+        .header-section { margin-bottom: 50px; text-align: center; }
+        h1 { font-weight: 800; color: #2d3436; letter-spacing: -1px; }
+        .pub-card { 
+            background: white; 
+            border: none; 
+            border-left: 5px solid #0984e3; 
+            margin-bottom: 20px; 
+            padding: 25px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .pub-card:hover { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        .pub-number { color: #0984e3; font-weight: bold; font-size: 1.1rem; }
+        .title { font-size: 1.15rem; font-weight: 700; color: #2d3436; display: block; margin: 10px 0; }
+        .journal { color: #636e72; font-style: italic; }
+        .rank-badge { 
+            display: inline-block; 
+            background: #e1f5fe; 
+            color: #0277bd; 
+            font-size: 0.8rem; 
+            padding: 3px 10px; 
+            border-radius: 20px; 
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .doi-link { color: #0984e3; text-decoration: none; font-family: monospace; font-size: 0.9rem; }
+        .doi-link:hover { text-decoration: underline; }
+        footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #dfe6e9; color: #b2bec3; font-size: 0.85rem; text-align: center; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <header class="mb-5">
-        <h1>Scientific Publications</h1>
-        <p class="lead text-muted">Mariya L. Ivanova, PhD (Post-Viva)</p>
-        <hr>
-    </header>
-
-    <div class="pub-item">
-        <span class="pub-number">[1]</span> <strong>Ivanova ML</strong>, Nicholls M, Russo N, Mihaylov G and Nikolic K (2026) “Toward Predictable Nanomedicine: Current Forecasting Frameworks for Nanoparticle-Biology Interactions”, <em>Advance Intelligent Discovery</em>, e202500205. 
-        <br><a href="https://doi.org/10.1002/aidi.202500205" class="doi-link">https://doi.org/10.1002/aidi.202500205</a>
-        <div class="mt-2"><span class="journal-tag">Publisher: Wiley | SJR: Q1/Q2 Expected</span></div>
+    <div class="header-section">
+        <h1>Research Publications</h1>
+        <p class="lead">Mariya L. Ivanova, PhD (Post-Viva)</p>
+        <p class="text-muted">Machine Learning | Nanomedicine | AI Reliability</p>
     </div>
 
-    <div class="pub-item">
-        <span class="pub-number">[2]</span> <strong>Ivanova ML</strong>, Nicholls M, Russo N, Mihaylov G and Nikolic K (2026) “Machine learning model leveraging SMILES-derived NMR spectroscopy data to predict dopamine D1 receptor antagonists...”, <em>BioNanoScience</em>.
-        <br><a href="https://doi.org/10.48550/arXiv.2501.14044" class="doi-link">https://doi.org/10.48550/arXiv.2501.14044</a>
-        <div class="mt-2"><span class="journal-tag">Publisher: Springer Nature | SJR: Bioengineering Q3</span></div>
-    </div>
-
-    <div class="pub-item">
-        <span class="pub-number">[3]</span> <strong>Ivanova ML</strong>, Nichols M, Russo N, Mihaylov G and Nikolic K (2025) “Machine Learning-driven insights for predicting the impact of nanoparticles on the functionality of biomolecules: Case of CHOP inhibitors”, <em>ArXiv / Submitted to Advance Intelligent Discovery</em>.
-        <br><a href="https://doi.org/10.48550/arXiv.2504.09537" class="doi-link">https://doi.org/10.48550/arXiv.2504.09537</a>
-        <div class="mt-2"><span class="journal-tag">Publisher: Wiley | SJR: Q1/Q2 Expected</span></div>
-    </div>
-
-    <div class="pub-item">
-        <span class="pub-number">[4]</span> <strong>Ivanova ML</strong>, Russo N, Mihaylov G and Nikolic K (2026) “IUPAC-Induced Computational Approaches for Identifying Boosters of Small Biomolecule Functionality: A Case Study of Human TDP1 Inhibitors”, <em>Computers in Biology and Medicine
+    <div class="pub-card">
+        <span class
